@@ -5,10 +5,10 @@
         "symfony/http-kernel": "^5.0"
     },
     "replace": {
-        "rafael-bp/subrepo1": "1.3.0",
-        "rafael-bp/subrepo2": "1.3.0",
-        "rafael-bp/subrepo3": "1.3.0",
-        "rafael-bp/subrepo4": "1.3.0"
+        "rafael-bp/subrepo1": "1.4.0",
+        "rafael-bp/subrepo2": "1.4.0",
+        "rafael-bp/subrepo3": "1.4.0",
+        "rafael-bp/subrepo4": "1.4.0"
     },
     "description": "Monorepo",
     "require-dev": {
