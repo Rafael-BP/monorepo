@@ -1,4 +1,6 @@
 <?php
+// monorepo-builder.php
+
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Symplify\MonorepoBuilder\ValueObject\Option;
 use Symplify\MonorepoBuilder\Release\ReleaseWorker\AddTagToChangelogReleaseWorker;
@@ -19,7 +21,7 @@ return static function (ContainerConfigurator $containerConfigurator): void {
         __DIR__ . '/app/code/foo',
     ]);
 
-    # release workers - in order to execute
+    // release workers - in order to execute
     $services->set(UpdateReplaceReleaseWorker::class);
     $services->set(SetCurrentMutualDependenciesReleaseWorker::class);
     $services->set(AddTagToChangelogReleaseWorker::class);
