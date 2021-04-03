@@ -1,0 +1,8 @@
+{
+    "name": "rafael-bp/subrepo4",
+    "require": {
+        "php": "^7.2",
+        "symfony/http-kernel": "^5.0"
+    },
+    "description": "Subrepo4"
+}
